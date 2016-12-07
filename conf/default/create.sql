@@ -213,7 +213,7 @@ ALTER TABLE suggestion ADD CONSTRAINT suggestion_user_fk FOREIGN KEY suggestion_
 ALTER TABLE `user` ADD CONSTRAINT usuarioweb_rolusuario_fk FOREIGN KEY usuarioweb_rolusuario_fk (role)
     REFERENCES role (id);
 
-CREATE USER 'aton'@'localhost' IDENTIFIED BY 'aton';
-GRANT ALL PRIVILEGES ON aton.* TO 'aton'@'localhost' WITH GRANT OPTION;
+CREATE USER 'csva8kb09hvofg5c'@'localhost' IDENTIFIED BY 'csva8kb09hvofg5c';
+GRANT ALL PRIVILEGES ON aton.* TO 'csva8kb09hvofg5c'@'localhost' WITH GRANT OPTION;
 
 -- End of file.
